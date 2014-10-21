@@ -1,0 +1,95 @@
+
+/* INITIALIZE */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* GENERAL */
+
+h1, h2, h3, h4 {
+  color: #094030;
+}
+
+body {
+  text-align: center;
+}
+
+.container {
+  width: 970px;
+  margin: auto;
+}
+/* HEADER */
+
+header img {
+  height: 200px;
+  border-radius: 50%;
+}
+
+nav {
+  background-color: #094030;
+}
+
+nav ul {
+ padding: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  padding: 0 60px;
+  color: #A8D9A0;
+  text-decoration: none;
+}
+
+/* section who am I */
+
+section h1, section h2 {
+  padding: 40px;
+  font-size: 40px;
+}
+
+#whoami {
+  background-color: #A8D9A0;
+}
+
+#whoami img {
+  float: left;
+  height: 300px;
+  padding: 0 40px 40px 0;
+}
+
+#whoami .contact {
+  float: left;
+  text-align: left;
+}
+
+#whoami .contact li {
+  padding: 20px 0;
+}
+
+
+.clear {
+  clear: both;
+}
+
+
+
+#whoami .fa {
+  font-size: 30px;
+}
