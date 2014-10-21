@@ -68,6 +68,8 @@ section h1, section h2 {
   background-color: #A8D9A0;
 }
 
+
+
 #whoami img {
   float: left;
   height: 300px;
@@ -82,7 +84,6 @@ section h1, section h2 {
 #whoami .contact li {
   padding: 20px 0;
 }
-
 
 .clear {
   clear: both;
