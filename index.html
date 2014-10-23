@@ -4,7 +4,13 @@
   <title>Rayman - mon CV personnel</title>
   <meta charset="utf-8">
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+<!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"> -->
+
   <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -14,13 +20,32 @@
     <h1>Rayman</h1>
     <h2>Hero</h2>
 
-    <nav>
-      <ul>
-        <li><a href="#whoami">Who am I?</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#pictures">Pictures</a></li>
-        <li><a href="#tools">Tools</a></li>
-      </ul>
+
+
+
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Brand</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul>
+            <li><a href="#whoami">Who am I?</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#pictures">Pictures</a></li>
+            <li><a href="#tools">Tools</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
     </nav>
   </header>
 
@@ -28,7 +53,7 @@
 
 
   <section id="whoami">
-    <div class="container">
+    <!-- <div class="container"> -->
       <h2>History</h2>
       <div>
         <img src="images/rayman2.jpg">
@@ -41,8 +66,8 @@
           </ul>
         </div>
       </div> <!-- closing contact -->
-    </div> <!-- closing container -->
-    <div class="clear"></div> <!-- THIS -->
+    <!-- </div> closing container -->
+    <div class="clear"></div> <!-- clearing floats -->
   </section>
 
 
@@ -83,5 +108,10 @@
       </div> <!-- closing clear -->
     </div> <!-- closing container -->
   </section>
+  
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 </html>
