@@ -39,9 +39,9 @@ header img {
   border-radius: 50%;
 }
 
-nav {
+/*nav {
   background-color: #094030;
-}
+}*/
 
 nav ul {
  padding: 20px;
@@ -56,6 +56,17 @@ nav ul li a {
   color: #A8D9A0;
   text-decoration: none;
 }
+
+#mainnav.navbar-default {
+  background-color: #094030;
+}
+
+#mainnav a:hover, a:focus {
+  color: white;
+  text-decoration: none;
+}
+
+
 
 /* section who am I */
 
